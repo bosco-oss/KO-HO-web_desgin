@@ -11,7 +11,7 @@ main {
         /* 原有漸層（降低透明度讓圖片顯現） */
         linear-gradient(135deg, rgba(223, 224, 227, 0.9) 0%, rgba(197, 191, 191, 0.85) 100%),
         /* 新增背景圖片 */
-        url('../images/hong-kong.jpg');
+        url('./images/hong-kong.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -430,4 +430,5 @@ main .decoration-line {
     .style-cta h3 {
         font-size: 1.8rem;
     }
+
 }
